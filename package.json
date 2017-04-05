@@ -23,12 +23,9 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-map#readme",
   "dependencies": {
-    "aglob": "^2.0.1",
     "co": "^4.6.0",
     "exorcist": "^0.4.0",
-    "pon-task-browser": "^1.0.2",
-    "pon-task-compile": "^1.0.3",
-    "pon-task-watch": "^1.0.1"
+    "pon-task-compile": "^1.0.3"
   },
   "devDependencies": {
     "ababel": "^2.0.1",
@@ -38,6 +35,7 @@
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
+    "pon-task-browser": "^1.0.2",
     "ape-tmpl": "^5.0.20",
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
