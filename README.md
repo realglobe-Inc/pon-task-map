@@ -113,7 +113,6 @@ Define task
 | options.pattern | string&amp;#124;string[] |  File name pattern |
 | options | Object |  Optional settings |
 | options.watchDelay | number |  Delay after watch |
-| options.indent | number |  Number of file indent |
 
 
 

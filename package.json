@@ -41,7 +41,7 @@
     "injectmock": "^2.0.0",
     "pon-context": "^2.0.1",
     "pon-doc": "^2.0.1",
-    "pon-task-browser": "^1.1.4",
+    "pon-task-browser": "^2.0.5",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
