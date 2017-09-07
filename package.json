@@ -1,6 +1,6 @@
 {
   "name": "pon-task-map",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Pon task to extract map files",
   "main": "lib",
   "browser": "shim/browser",
