@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- '6'
+- '8'
 before_install:
  - npm i npm-cli-login -g
  - npm-cli-login -u "${NPM_USER}" -p "${NPM_PASSWORD}" -e "${NPM_EMAIL}"
@@ -14,7 +14,5 @@ script:
 - ./ci/test.js
 after_success:
 - ./ci/travis/publish.js
-env:
-  secure: "WTboLu0+qOFuqT538pnn7tvwMu258hBvkHi5pyghVO1MC5s4eb6C7qLTEyRvcu0ExYJ7ijK7Cy4Dd4UwPSXyhY2egh+2kyL+BrKd0C/LngweBhqiG6Fb7/fdhbskLsxJFlnLtWezaGJWP4uQTk/QmfaO8udKFMaxe3girXR0hHwpaoWj32dxKZ7nCaSIT4+Oa7whR28ZES3WKgsLV8DS1UCCIUxZ1+K1tOhay+aLQzSMlgKocyEfOKECQfs+9QakBxn95oRSC7+miN6WtwV5QtDA1XtgdtG2NUSFAwPQpRyteuYfQiVio0rZlATG0j3xguu67MG3OUQ0pWPUMf0fPq5c7quxuGO8Le272XWmOxyRwKHi90ZsalHcg6WKIFpwdoWNRoDqYDhgs7K1SGVv4whbcxmW7BWFp1wWiW+Dji68TjEAFrY3RlqdGDNbUoUgyhB3BBVFzHAyfLvskEc03G+mqJC05gjn1vStVK2JwhyPat085tS5i+pykxunNp26AYywiaiKgubCF6J56/4ia7GcaQvHMNxMIZ/N11GbSB/np3PzgzxbMYHRIvNo+vjnZ1r1XNvEuckhTu7M6HJQ0p4fM74Sxl8cj11KPAmGcoQrMbTlqo3u+++cUioENwuKiXlsf7zgyFImYQrub7tsJJX2xMPsnxfikw7Ya7ucWr8="
 env:
   secure: "RoE6wjkpjJL1UKGjaLhPxc5huPAads/L9DCI1DcJwRIg1BSAn3q/kTbuzEOGt6etnQmTos0irZ0t2yujuSeI2usglZwXKAsLnCqrFEAJY5/bf0kpqkpWDZ/T4ACmc8msPF+9dL2lXrPEAy8py49hJx0UNu4fhPFmhIb6XB709566OsNdXIk5k/Czkx0J1yTGgKI8yPxoxk/5vvY+5+YH1t8BI1/A0i36NsNv2PCRmavsL3sTghH/Nd9fkQfGDnaZt6ettiptfRUKIurvd8tKJBy2UhMffIlAt9YdVTYxmW3lLupNPYjAwWWgPaHlbuD29fJR7pDYTZmxhGazSYlCeNaeIsPA39q6nrvu1n4F08EVX4NgRFWJ9eqjj9SuE1FPleD0nhKjgTdwPG/ZyUXAHqTtnKP8JcGoAhi2QGKS/bzdK3uEbPJ8lRB36ZMT3sQkN3NVkCYADRdY7XmrFd9+GnAi7ezlxWZH+o2NVyuT0lLbxJt9jSOYgDwzMWYW+D92aZtt7RvIppE0OU/eabEgLHU/wznb1yAMNaIJjvLP6zxr5yARXhIeEcr6HHtjJFsuUocZGwuLJdneBzfEMouE8aVcbkmdrGNSCwUPmFluv7u/1aS3KZpFuxgLMpuusyeWBzzPOyGwBJGugVcgdRQRfLzLX9aA+sVF63BYiRPsxtA="
