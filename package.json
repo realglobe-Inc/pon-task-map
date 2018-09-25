@@ -29,7 +29,7 @@
     "pon-task-compile": "^4.0.0"
   },
   "devDependencies": {
-    "ababel": "^5.0.3",
+    "ababel": "^5.0.6",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
@@ -41,7 +41,7 @@
     "injectmock": "^2.0.0",
     "pon-context": "^3.0.2",
     "pon-doc": "^2.0.1",
-    "pon-task-browser": "^6.0.10",
+    "pon-task-browser": "^6.0.16",
     "sugos-travis": "^2.0.7"
   },
   "engines": {
